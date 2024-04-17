@@ -1,0 +1,20 @@
+body{
+    background-color: gainsboro;
+}
+
+ul {
+    list-style: none;
+}
+
+.winter > li::before{
+    content: '❄️';
+}
+.spring > li::before{
+    content: '🌻';
+}
+.summer > li::before{
+    content: '🍉';
+}
+.autumn > li::before{
+    content: '🍁';
+}
